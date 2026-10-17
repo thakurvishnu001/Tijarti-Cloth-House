@@ -4,7 +4,7 @@ A responsive women's clothing storefront with a persistent SQLite database and a
 
 ## Start
 
-Run `node server.cjs` from this directory, then open http://127.0.0.1:8788.
+Run `node server.cjs` from this directory.
 
 On the first start, the terminal prints a one-time admin setup link. Open that link to choose a password of at least 8 characters for **tijarticlothingindustry@gmail.com**. No default password is included. The setup link stops working after the admin account is created. Customers can register from Account. Both login forms include a show/hide password button.
 
