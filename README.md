@@ -34,9 +34,9 @@ Enquiries always save to the database and appear in Admin. To enable automatic o
 
 ## Deploying
 
-This standalone implementation is not deployed to Sites. Use a Node host with persistent disk and HTTPS, or adapt the backend to your chosen hosting service. Set `HOST=0.0.0.0`, `PORT` to the host port and `PUBLIC_ORIGIN` to the exact HTTPS website origin. HTTPS enables secure cookies. Back up the `data` directory, which contains the SQLite database and uploaded images. Keep that directory private; the server exposes only images under `data/uploads`.
-
-Before accepting real orders, upload and verify the merchant QR/UPI, replace sample products, configure notifications, and provide the store's shipping, return and privacy terms. No shipping fees or additional taxes are currently added to displayed prices. Password reset by email, automatic refunds, payment webhooks and inventory expiry for unpaid orders are not implemented. Admin can cancel unpaid orders to release reserved stock.
+Live Website: [https://tijarti-clothing-industry.com-0ca.workers.dev/](https://tijarti-clothing-industry.com-0ca.workers.dev/?utm_source=chatgpt.com)
+A responsive women's clothing store featuring product browsing, shopping cart, checkout, UPI payments, and a secure admin dashboard.
+Note: Before accepting live orders, verify payment details, configure hosting and backups, and publish shipping, return, and privacy policies.
 
 ## Verification
 
